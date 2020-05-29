@@ -2,7 +2,6 @@
 // this hoc will check the auth status and redirect to the login page if not ogged in
 
 import React from "react";
-import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 
 export default (MyComponent, element) => {

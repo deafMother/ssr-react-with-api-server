@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
-import { fetchUsers } from "../actions";
 
 class NoteList extends Component {
   render() {
@@ -9,5 +7,5 @@ class NoteList extends Component {
 }
 
 export default {
-  component: UsersList,
+  component: NoteList,
 };
