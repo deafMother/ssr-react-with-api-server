@@ -1,0 +1,4 @@
+module.exports = {
+  JWT_SECRET: "My_SUPER_SECRET_JWT_TOKEN_STRING",
+  JWT_EXPIRES_IN: "90d",
+};
